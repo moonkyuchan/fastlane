@@ -22,19 +22,6 @@ const App = () => {
       });
   };
 
-  // const initialSort = (arr) => {
-  //   // let first = arr.sort((a, b) => {
-  //   //   return a.comments < b.comments ? 1 : -1;
-  //   // });
-
-  //   // let second = first.sort((a, b) => {
-  //   //   return new Date(a.created_at) < new Date(b.created_at) ? 1 : -1;
-  //   // });
-  //   return arr.sort((a, b) => {
-  //     return a.comments < b.comments ? 1 : -1 || a.number < b.number ? 1 : -1;
-  //   });
-  // };
-
   return (
     <AppBack>
       <IssueTitle>Issue</IssueTitle>
